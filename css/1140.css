@@ -7,124 +7,148 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,addre
 /* ! The 1140px Grid V2 by Andy Taylor \ http://cssgrid.net \ http://www.twitter.com/andytlr \ http://www.andytlr.com   */
 /* ==================================================================================================================== */
 
-.container {
-padding-left: 20px;
-padding-right: 20px;
-}
 
-.row {
-width: 100%;
-max-width: 1140px;
-min-width: 755px;
-margin: 0 auto;
-overflow: hidden;
+.container
+{
+	padding-left: 20px;
+	padding-right: 20px;
 }
-
-.onecol, .twocol, .threecol, .fourcol, .fivecol, .sixcol, .sevencol, .eightcol, .ninecol, .tencol, .elevencol {
-margin-right: 3.8%;
-float: left;
-min-height: 1px;
+.row
+{
+	width: 100%;
+	max-width: 1140px;
+	margin: 0 auto;
+	overflow: hidden;
 }
-
-.row .onecol {
-width: 4.85%;
+.onecol,
+.twocol,
+.threecol,
+.fourcol,
+.fivecol,
+.sixcol,
+.sevencol,
+.eightcol,
+.ninecol,
+.tencol,
+.elevencol
+{
+	margin-right: 3.772%;
+	float: left;
+	min-height: 1px;
 }
-
-.row .twocol {
-width: 13.45%;
+.row .onecol
+{
+	width: 4.86%;
 }
-
-.row .threecol {
-width: 22.05%;
+.row .twocol
+{
+	width: 13.45%;
 }
-
-.row .fourcol {
-width: 30.75%;
+.row .threecol
+{
+	width: 22.05%;
 }
-
-.row .fivecol {
-width: 39.45%;
+.row .fourcol
+{
+	width: 30.75%;
 }
-
-.row .sixcol {
-width: 48%;
+.row .fivecol
+{
+	width: 39.45%;
 }
-
-.row .sevencol {
-width: 56.75%;
+.row .sixcol
+{
+	width: 48%;
 }
-
-.row .eightcol {
-width: 65.4%;
+.row .sevencol
+{
+	width: 56.75%;
 }
-
-.row .ninecol {
-width: 74.05%;
+.row .eightcol
+{
+	width: 65.4%;
 }
-
-.row .tencol {
-width: 82.7%;
+.row .ninecol
+{
+	width: 74.05%;
 }
-
-.row .elevencol {
-width: 91.35%;
+.row .tencol
+{
+	width: 82.7%;
 }
-
-.row .twelvecol {
-width: 100%;
-float: left;
+.row .elevencol
+{
+	width: 91.35%;
 }
-
-.last {
-margin-right: 0px;
+.row .twelvecol
+{
+	width: 100%;
+	float: left;
 }
-
-img, object, embed {
-max-width: 100%;
+.row .last
+{
+	width: auto;
+	overflow: hidden;
+	margin: 0;
+	float: none;
 }
-
-img {
+img,
+object,
+embed
+{
+	max-width: 100%;
+}
+img
+{
 	height: auto;
 }
 
 
 /* Smaller screens */
-
 @media only screen and (max-width: 1023px) {
 
-	body {
-	font-size: 0.8em;
-	line-height: 1.5em;
+	body
+	{
 	}
 	
-	}
+}
 
 
 /* Mobile */
-
 @media handheld, only screen and (max-width: 767px) {
 
-	body {
-	font-size: 16px;
-	-webkit-text-size-adjust: none;
+	body
+	{
+		-webkit-text-size-adjust: none;
 	}
-	
-	.row, body, .container {
-	width: 100%;
-	min-width: 0;
-	margin-left: 0px;
-	margin-right: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
+	.row, body, .container
+	{
+		width: 100%;
+		min-width: 0;
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 0;
+		padding-right: 0;
 	}
-	
-	.row .onecol, .row .twocol, .row .threecol, .row .fourcol, .row .fivecol, .row .sixcol, .row .sevencol, .row .eightcol, .row .ninecol, .row .tencol, .row .elevencol, .row .twelvecol {
-	width: auto;
-	float: none;
-	margin-left: 0px;
-	margin-right: 0px;
-	padding-left: 20px;
-	padding-right: 20px;
+	.row .onecol,
+	.row .twocol,
+	.row .threecol,
+	.row .fourcol,
+	.row .fivecol,
+	.row .sixcol,
+	.row .sevencol,
+	.row .eightcol,
+	.row .ninecol,
+	.row .tencol,
+	.row .elevencol,
+	.row .twelvecol
+	{
+		width: auto;
+		float: none;
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 20px;
+		padding-right: 20px;
 	}
 
 }
